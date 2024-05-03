@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="to do list.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav >
+        <ul>
+        <li>
+            <a href="#" class="logo">
+                <img src="logo2.jpg" alt="" width="100px">
+                <span class="nav-item"></span>
+            </a>
+        </li>
+        <li><a href="index1.html">
+            <i class="fas fa-home"></i>
+            <span class="nav-item"></span>
+        </a></li>
+        <li><a href="profile.html">
+            <i class="fas fa-user"></i>
+            <span class="nav-item"></span>
+        </a></li>
+       
+        <li><a href="calendar.html" >
+            <i class='fas fa-calendar'></i>
+            <span class="nav-item"></span>
+        </a></li>
+        <li><a href="to do list.html">
+            <i class="fas fa-tasks"></i>
+            <span class="nav-item"></span>
+        </a></li>
+        <li><a href="#">
+            <i class="fas fa-cog"></i>
+            <span class="nav-item"></span>
+        </a></li>
+        <li><a href="#">
+            <i class="fas fa-question-circle"></i>
+            <span class="nav-item"></span>
+        </a></li>
+      
+        <li><a href="#" class="logout">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="nav-item"></span>
+        </a></li>
+        </ul>
+    </nav>
+   <div class="container">
+  <div class="todo-app">
+    <h2>To-Do-List <img src="to do list.jpg" ></h2>
+<div class="row">
+    <input type="text " id="input-box" placeholder="Add your text">
+<button onclick="addTask()">Add</button>
+</div> 
+ <ol id="list-container">
+   <!--- <li class="checked">Task 1</li>
+    <li>Task 2</li>
+    <li>Task 3</li>-->
+ </ol>
+</div>
+   </div> 
+   <script src="tp do list.js"></script>
+</body>
+</html>
